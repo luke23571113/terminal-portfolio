@@ -44,7 +44,7 @@ export const email = async (args: string[]): Promise<string> => {
 };
 
 export const github = async (args: string[]): Promise<string> => {
-  window.open(`https://github.com/${config.social.github}/`);
+  window.open(`https://github.com/luke23571113/terminal-portfolio/blob/main/luke_collins.pdf`);
 
   return 'Opening github...';
 };
@@ -75,12 +75,12 @@ export const banner = (args?: string[]): string => {
 ███████╗╚██████╔╝██║  ██╗███████╗                     
 ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝                     
                                                       
-  ██████╗ ██████╗ ██╗     ██╗     ██╗███╗   ██╗███████╗
+ ██████╗ ██████╗ ██╗     ██╗     ██╗███╗   ██╗███████╗
 ██╔════╝██╔═══██╗██║     ██║     ██║████╗  ██║██╔════╝
 ██║     ██║   ██║██║     ██║     ██║██╔██╗ ██║███████╗
 ██║     ██║   ██║██║     ██║     ██║██║╚██╗██║╚════██║
 ╚██████╗╚██████╔╝███████╗███████╗██║██║ ╚████║███████║
-  ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝
+ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝
 
 Type 'help' to see the list of available commands.
 `;

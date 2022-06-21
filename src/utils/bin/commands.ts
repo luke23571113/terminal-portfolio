@@ -19,7 +19,7 @@ export const help = async (args: string[]): Promise<string> => {
 export const repo = async (args: string[]): Promise<string> => {
   window.open(`${config.repo}`);
   return 'Opening Github repository...';
-};
+}
 
 // About
 export const about = async (args: string[]): Promise<string> => {
@@ -44,7 +44,7 @@ export const email = async (args: string[]): Promise<string> => {
 };
 
 export const github = async (args: string[]): Promise<string> => {
-  window.open(`https://github.com/luke23571113/terminal-portfolio/blob/main/luke_collins.pdf`);
+  window.open(`https://github.com/luke23571113/`);
 
   return 'Opening github...';
 };
